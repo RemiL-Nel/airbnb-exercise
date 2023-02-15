@@ -54,16 +54,4 @@ const Home: NextPage = () => {
   );
 };
 
-// export async function getStaticProps() {
-//   const exploreData = await fetch("https://jsonkeeper.com/b/4G1G").then((res) =>
-//     res.json()
-//   );
-//   return {
-//     rejectUnauthorized: false,
-//     props: {
-//       exploreData,
-//     },
-//   };
-// }
-
 export default Home;
